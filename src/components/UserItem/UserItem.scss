@@ -1,0 +1,39 @@
+
+.user-card {
+  background: #F3F3F3;
+  width: 600px;
+  margin-top: 30px;
+  border-radius: 8px;
+  position: relative;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &-content {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  
+  &-item__key {
+    color: #A3A3A3;
+  }
+  
+  &-item__value {
+    color: #000000;
+  }
+  
+  &-item__details {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border: none;
+    background: none;
+
+    a {
+      color: #4B51EF;
+      font-size: 15px;
+    }
+  }
+}

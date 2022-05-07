@@ -1,0 +1,38 @@
+.profile-main-item {
+  margin-top: 15px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+  
+  &__input, &__textarea {
+    color: #000000;
+    margin-top: 10px;
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+    border: 1px solid #000;
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:disabled {
+      border: 1px solid #D8D8D8;
+      color: #D8D8D8;
+    }
+  }
+
+  &__textarea {
+    width: 700px;
+    height: 150px;
+    padding-top: 10px;
+    resize: none;
+  }
+}
+
+.error {
+  border: 1px solid #D91313;
+}

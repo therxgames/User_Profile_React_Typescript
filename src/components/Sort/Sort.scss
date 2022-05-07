@@ -1,0 +1,26 @@
+.sort {
+  background: #BDBDBD;
+  width: 400px;
+
+  &-content {
+    margin-top: 35px;
+    margin-left: 20px;
+  }
+
+  &-title {
+    font-size: 25px;
+  }
+
+  &-list {
+    margin-top: 20px;
+  }
+  
+  &-list-item {
+    margin-top: 15px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+}

@@ -1,0 +1,33 @@
+.users-list {
+  margin-top: 30px;
+  margin-bottom: 25px;
+
+  &-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+    
+  &-title {
+    text-align: center;
+
+    &__text {
+      font-weight: bold;
+      font-size: 25px;
+    }
+  }
+    
+  &-cards {
+    margin-top: 20px;
+  }
+    
+  &-quant {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+
+    &__text {
+      font-size: 19px;
+    }
+  }
+}
